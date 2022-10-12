@@ -1,0 +1,17 @@
+input:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 576px) {
+    .form-wrapper {
+        width: 100% !important;
+        padding: 20px !important;
+        box-sizing: border-box;
+        margin: 0 !important;
+    }
+}
